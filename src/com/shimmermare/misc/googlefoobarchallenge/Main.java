@@ -24,6 +24,7 @@
 
 package com.shimmermare.misc.googlefoobarchallenge;
 
+import java.math.BigInteger;
 import java.util.Arrays;
 
 public final class Main {
@@ -31,5 +32,9 @@ public final class Main {
         System.out.println("Level 1: " + Arrays.toString(Level1.solution(15324)));
         System.out.println("Level 2 Task 1: " + Level2Task1.solution(new int[]{3, 1, 4, 1, 5, 9}));
         System.out.println("Level 2 Task 2: " + Level2Task2.solution("210022", 3));
+        System.out.println("Level 3 Task 1: " + Level3Task1.solution(
+                BigInteger.TEN.pow(50).subtract(BigInteger.ONE).toString(),
+                BigInteger.TEN.pow(50).toString()
+        ));
     }
 }
