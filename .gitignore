@@ -1,0 +1,6 @@
+# Ignore IDE stuff because it's meant to be compiled in pure Java 8 env anyway.
+*
+!.gitignore
+!src/
+!LICENSE.txt
+!README.md
