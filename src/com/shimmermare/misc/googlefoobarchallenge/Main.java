@@ -37,5 +37,6 @@ public final class Main {
                 BigInteger.TEN.pow(50).toString()
         ));
         System.out.println("Level 3 Task 2: " + Level3Task2.solution(200));
+        System.out.println("Level 3 Task 3: " + Level3Task3.solution(BigInteger.TEN.pow(309).toString()));
     }
 }
