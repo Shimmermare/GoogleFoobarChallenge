@@ -36,5 +36,6 @@ public final class Main {
                 BigInteger.TEN.pow(50).subtract(BigInteger.ONE).toString(),
                 BigInteger.TEN.pow(50).toString()
         ));
+        System.out.println("Level 3 Task 2: " + Level3Task2.solution(200));
     }
 }
