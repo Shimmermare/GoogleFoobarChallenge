@@ -73,7 +73,6 @@ public class HeyIAlreadyDidThat {
         String xText = descendingBuilder.toString();
         int x = Integer.parseInt(xText, b);
 
-        //Don't forget that format is localized
         int z = x - y;
 
         String zText = Integer.toString(z, b);

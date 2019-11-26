@@ -39,7 +39,6 @@ public class FuelInjectionPerfection {
         //It's less steps if you divide numbers with more trailing zeros,
         // because the less you have the less times you can divide repeatedly.
         while (!num.equals(ONE)) {
-            System.out.println(num.toString());
             if (!num.testBit(0)) {
                 num = num.shiftRight(1);
             }
