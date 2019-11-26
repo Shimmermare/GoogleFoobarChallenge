@@ -29,9 +29,8 @@ import java.util.List;
 
 public class Level1 {
     public static int[] solution(int area) {
-        //For some reason input validation lead to test failure
-        //if (area < 1 || area > 100000)
-        //    throw new IllegalArgumentException("Area must be between 1 and 100000 inclusive (" + area + ")");
+        if (area < 1 || area > 1000000)
+            throw new IllegalArgumentException("Area must be between 1 and 1000000 inclusive (" + area + ")");
 
         List<Integer> squares = new ArrayList<>();
         while (area > 0) {
