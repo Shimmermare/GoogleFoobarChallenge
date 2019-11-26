@@ -22,13 +22,13 @@
  * SOFTWARE.
  */
 
-package com.shimmermare.misc.googlefoobarchallenge;
+package com.shimmermare.misc.googlefoobarchallenge.level3;
 
 import java.math.BigInteger;
 
 import static java.math.BigInteger.ONE;
 
-public class Level3Task3 {
+public class FuelInjectionPerfection {
     private static final BigInteger THREE = BigInteger.valueOf(3L);
 
     public static int solution(String numStr) {

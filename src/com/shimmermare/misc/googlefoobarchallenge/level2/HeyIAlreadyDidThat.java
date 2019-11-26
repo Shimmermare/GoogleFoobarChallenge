@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-package com.shimmermare.misc.googlefoobarchallenge;
+package com.shimmermare.misc.googlefoobarchallenge.level2;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ import java.util.Iterator;
 import java.util.List;
 
 //Depth-first search task
-public class Level2Task2 {
+public class HeyIAlreadyDidThat {
     public static int solution(String n, int b) {
         if (n.length() < 2 || n.length() > 9)
             throw new IllegalArgumentException("Length of n must be between 2 and 9 (inclusive)");

@@ -22,12 +22,12 @@
  * SOFTWARE.
  */
 
-package com.shimmermare.misc.googlefoobarchallenge;
+package com.shimmermare.misc.googlefoobarchallenge.level1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Level1 {
+public class SolarDoomsday {
     public static int[] solution(int area) {
         if (area < 1 || area > 1000000)
             throw new IllegalArgumentException("Area must be between 1 and 1000000 inclusive (" + area + ")");

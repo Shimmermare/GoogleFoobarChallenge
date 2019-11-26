@@ -22,12 +22,12 @@
  * SOFTWARE.
  */
 
-package com.shimmermare.misc.googlefoobarchallenge;
+package com.shimmermare.misc.googlefoobarchallenge.level3;
 
 import java.util.Arrays;
 
 //Distinct number of partitions
-public class Level3Task2 {
+public class GrandestStaircaseOfThemAll {
     //We have exact borders so why not pre-calc it?
     //Commander Lambda will be happy with a twice as fast solution!.. 1 ms vs 2 ms lol
     //Starts from n=1

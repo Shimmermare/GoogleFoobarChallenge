@@ -22,14 +22,14 @@
  * SOFTWARE.
  */
 
-package com.shimmermare.misc.googlefoobarchallenge;
+package com.shimmermare.misc.googlefoobarchallenge.level2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 //Breadth-first search task
-public class Level2Task1 {
+public class PleasePassTheCodedMessages {
     public static int solution(int[] l) {
         List<Integer> dividableBy3 = new ArrayList<>();
 

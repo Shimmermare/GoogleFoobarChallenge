@@ -22,11 +22,11 @@
  * SOFTWARE.
  */
 
-package com.shimmermare.misc.googlefoobarchallenge;
+package com.shimmermare.misc.googlefoobarchallenge.level3;
 
 import java.math.BigInteger;
 
-public class Level3Task1 {
+public class BombBaby {
     public static String solution(String mStr, String fStr) {
         //"No larger than 10^50" is w-a-ay out of long range. BigInts ftw.
         BigInteger m = new BigInteger(mStr);
